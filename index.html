@@ -22,7 +22,7 @@ body{
   color:var(--ink);
   background:
     radial-gradient(circle at 12% 18%,rgba(255,255,255,.9) 0 10%,transparent 22%),
-    linear-gradient(135deg,#ffd7e5 0%,#fff3f7 46%,#fff7d8 100%);
+    linear-gradient(135deg,#ffd7e5 0%,#fff3f7 46%st,#fff7d8 100%);
   overflow-x:hidden;
 }
 button{
@@ -982,7 +982,7 @@ function showPage(page){
   window.scrollTo(0,0);
 }
 
-const target=new Date(2026,5,5,18,35,0);
+const target=new Date(2026,5,14,14,30,0);
 
 function update(){
   const diff=target-new Date();

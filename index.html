@@ -746,7 +746,7 @@ canvas{position:fixed;inset:0;z-index:2;pointer-events:none}
   <section class="celebration">
     <div class="party-top">
       <div class="message">
-        <h2>Happy Birthday <span class="accent">Anmol</span> <span class="tulip-icon" aria-label="tulip flower"></span></h2>
+        <h2>Happy Birthday <span class="accent">jyoti</span> <span class="tulip-icon" aria-label="tulip flower"></span></h2>
         <p>You are loved in tiny everyday ways, in loud celebration ways, and in the quiet spaces where words are never enough.</p>
       </div>
       <div class="cake-scene">
@@ -868,7 +868,7 @@ I hope you have an absolutely amazing day and get spoiled with all the happiness
     <div class="gift-wrap">
       <button class="gift-box-button" id="unwrapGift">Unwrap Gift</button>
     </div>
-    <img class="gift-image" alt="A birthday gift for Anmol" src="image1.jpeg">
+    <img class="gift-image" alt="A birthday gift for jyoti" src="image1.jpeg">
     <p class="gift-note">A little surprise wrapped with love.</p>
     <button class="secondary" id="closeGift">Close Gift</button>
   </div>
@@ -958,7 +958,7 @@ saveWish.onclick=async()=>{
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
         wish,
-        page:'Anmol birthday wishes',
+        page:'jyoti birthday wishes',
         sentAt:new Date().toISOString()
       })
     });
@@ -985,7 +985,7 @@ const target=new Date(2026,7,27,3,50,0);
 function update(){
   const diff=target-new Date();
   if(diff<=0){
-    document.querySelector('h1').innerHTML='It Is Your Birthday, <span class="accent">Anmol</span> <span class="tulip-icon" aria-label="tulip flower"></span>';
+    document.querySelector('h1').innerHTML='It Is Your Birthday, <span class="accent">jyoti</span> <span class="tulip-icon" aria-label="tulip flower"></span>';
     countdownMessage.textContent='The celebration is ready for you ❤️';
     d.textContent=h.textContent=m.textContent=s.textContent='00';
     enterSite.disabled=false;
